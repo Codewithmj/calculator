@@ -1,0 +1,45 @@
+body{
+  display: block;
+  background: grey;
+}
+.mary{
+  position: absolute;
+  left: 20%;
+  font-size: 500%;
+  padding: 3%;
+  color: aqua;
+}
+
+
+* {
+  margin:0;
+  padding:0;
+}
+
+.button{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  background: black;
+  border: none;
+  color: white;
+}
+
+.textview{
+  width: 210px;
+  padding: 5px;
+  margin: 2px;
+  font-size: 25px;
+  border: none;
+  color: black;
+  background: pink;
+}
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
